@@ -1,0 +1,126 @@
+/** @format */
+
+#root {
+	max-width: 1280px;
+	/* margin: 0 auto; */
+	/* padding: 2rem; */
+	text-align: center;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+.login {
+	height: 350px;
+	width: 250px;
+	background-color: rgb(156, 76, 76);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+input {
+	height: 34px;
+	width: 209px;
+	border-radius: 5px;
+	border: 1px solid wheat;
+}
+input:hover {
+	border: 1px solid #646cff;
+}
+input:focus {
+	outline: none;
+}
+td button:focus {
+	outline-color: rgb(96, 194, 213);
+}
+.UserTable {
+	height: 100vh;
+	width: 100vw;
+	background-color: antiquewhite;
+	display: flex;
+}
+.SideNavBar {
+	height: 100%;
+	width: 255px;
+	background-color: #646cff;
+	justify-content: center;
+}
+.table {
+	width: 100%;
+	/* margin-bottom: 1rem; */
+	background-color: transparent;
+	height: 743px;
+}
+/* .Modal {
+	height: 300px;
+	width: 250px;
+	background-color: gray;
+} */
+.nav {
+	height: 40px;
+	width: 100%;
+	background: #ac9d9d;
+	display: flex;
+	justify-content: flex-end;
+}
+.table td,
+.table th {
+	padding: 5px;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+.addUser {
+	padding: 5px;
+	background-color: rgb(245, 245, 243);
+}
+.delete {
+	background-color: red;
+	color: whitesmoke;
+}
+.edit {
+	background-color: rgb(49, 195, 236);
+	color: whitesmoke;
+}
+.edit:focus {
+	outline-color: rgb(16, 12, 131);
+}
+.addUserForm {
+	padding: 10px 120px;
+	height: 730px;
+	width: 750px;
+	background-color: rgb(246, 248, 188);
+}
