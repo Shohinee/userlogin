@@ -1,6 +1,5 @@
 /** @format */
 
-import React from "react";
 import * as Yup from "yup";
 export const addUpdateSchema = Yup.object({
 	firstname: Yup.string()
@@ -12,5 +11,5 @@ export const addUpdateSchema = Yup.object({
 	password: Yup.string().min(6).required("Enter your Password"),
 	city: Yup.string().min(2),
 	zipcode: Yup.string().min(2),
-	phone: Yup.string().min(10).max(10),
+	phone: Yup.string().min(10).max(14),
 });

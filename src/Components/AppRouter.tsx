@@ -4,7 +4,6 @@
 import UserTable from "./UserTable";
 import { Route, Routes } from "react-router-dom";
 import table from "./table";
-import Modal from "./Modal";
 import Login from "./Login";
 import AddUpdate from "./form/addUpdate";
 

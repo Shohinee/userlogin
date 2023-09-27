@@ -51,6 +51,7 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
+	margin-left: 248%;
 }
 input {
 	height: 34px;
@@ -91,11 +92,12 @@ td button:focus {
 	background-color: gray;
 } */
 .nav {
-	height: 40px;
+	height: 50px;
 	width: 100%;
+	padding: 2px;
 	background: #ac9d9d;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 }
 .table td,
 .table th {
@@ -119,8 +121,20 @@ td button:focus {
 	outline-color: rgb(16, 12, 131);
 }
 .addUserForm {
-	padding: 10px 120px;
+	padding: 100px 120px;
 	height: 730px;
-	width: 750px;
+	width: 100%;
 	background-color: rgb(246, 248, 188);
+}
+.image {
+	padding: 20px;
+	margin: 2px;
+	margin-top: 185px;
+	width: 90%;
+	border: 1px solid blue;
+	border-radius: 10px;
+}
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
 }

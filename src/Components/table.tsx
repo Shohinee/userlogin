@@ -16,9 +16,9 @@ export default function table() {
 			.then((json) => console.log(json));
 	};
 
-	const EditPage = () => {
-		console.log("edited");
-		navigate("/edit");
+	const EditPage = (id: number) => {
+		// console.log("edited");
+		navigate(`/edit/${id}`);
 	};
 
 	useEffect(() => {
@@ -58,7 +58,7 @@ export default function table() {
 									<td>{item.address.city}</td>
 									<td>{item.phone}</td>
 									<td>
-										<button onClick={() => EditPage()} className="edit">
+										<button onClick={() => EditPage(item.id)} className="edit">
 											Edit
 										</button>
 									</td>
