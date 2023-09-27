@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+#Uses of User's api from Fake api store
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
